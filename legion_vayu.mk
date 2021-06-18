@@ -32,8 +32,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # LegionOS Device Maintainers
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.maintainer.name=EdvanHerv
+LEGION_MAINTAINER :=EdvanHerv
     
 #Gapps Architecture
 TARGET_GAPPS_ARCH := arm64
